@@ -1,0 +1,112 @@
+@import '@/styles/config.scss'; 
+
+@mixin Bg($color:none){
+    background:$color;
+    [data-theme="dark"] & {
+        background:$darkBg;
+    }
+    [data-theme="white"] & {
+        background:$whiteBg;
+    }
+}
+@mixin ListBg($color:none){
+    background:$color;
+    [data-theme="dark"] & {
+        background:$darkListBg;
+    }
+    [data-theme="white"] & {
+        background:$whiteListBg;
+    }
+}
+@mixin TbBg($color:none){
+    background:$color;
+    [data-theme="dark"] & {
+        background:$darkTbBg;
+    }
+    [data-theme="white"] & {
+        background:$whiteTbBg;
+    }
+}
+@mixin BarBg($color:none){
+    background:$color;
+    [data-theme="dark"] & {
+        background:$darkBarBg;
+    }
+    [data-theme="white"] & {
+        background:$whiteBarBg;
+    }
+}
+@mixin LineBg($color:none){
+    background:$color;
+    [data-theme="dark"] & {
+        background:$darkLineBg;
+    }
+    [data-theme="white"] & {
+        background:$whiteLineBg;
+    }
+}
+@mixin InputBarBg($color:none){
+    background:$color;
+    [data-theme="dark"] & {
+        background:$darkInputBarBg;
+    }
+    [data-theme="white"] & {
+        background:$whiteInputBarBg;
+    }
+}
+
+@mixin FontColor1($color:none){
+    color:$color;
+    [data-theme="dark"] & {
+        color:$darkFontColor1;
+    }
+    [data-theme="white"] & {
+        color:$whiteFontColor1;
+    }
+}
+@mixin FontColor2($color:none){
+    color:$color;
+    [data-theme="dark"] & {
+        color:$darkFontColor2;
+    }
+    [data-theme="white"] & {
+        color:$whiteFontColor2;
+    }
+}
+@mixin FontColor3($color:none){
+    color:$color;
+    [data-theme="dark"] & {
+        color:$darkFontColor3;
+    }
+    [data-theme="white"] & {
+        color:$whiteFontColor3;
+    }
+}
+
+@mixin FontColor4($color:none){
+    color:$color;
+    [data-theme="dark"] & {
+        color:$darkFontColor4;
+    }
+    [data-theme="white"] & {
+        color:$whiteFontColor4;
+    }
+}
+@mixin FontColor5($color:none){
+    color:$color;
+    [data-theme="dark"] & {
+        color:$darkFontColor5;
+    }
+    [data-theme="white"] & {
+        color:$whiteFontColor5;
+    }
+}
+@mixin FontColor6($color:none){
+    color:$color;
+    [data-theme="dark"] & {
+        color:$darkFontColor6;
+    }
+    [data-theme="white"] & {
+        color:$whiteFontColor6;
+    }
+}
